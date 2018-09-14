@@ -1,0 +1,5 @@
+x=input("enter the number :")
+y=input("enter the number :")
+a=int(x)
+b=int(y)
+print (a/b) 
