@@ -11,7 +11,7 @@ def sendSMS(apikey, numbers, sender, message):
     fr = f.read()
     return(fr)
  
-resp =  sendSMS('hw5LECjKIwA-Kp1shtnTYJVCynJgAitMZQZbwpQLkC', '919695455273',
+resp =  sendSMS('your API key', '9196xxxxxxxx',
     'TXTLCL', 'This is your message')
 
 print (resp)
